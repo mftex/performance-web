@@ -1,0 +1,1 @@
+setTimeout(function(){var e='<iframe class="elasticMedia" width="560" height="315" src="https://www.youtube.com/embed/2t8ycK8D4Rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';document.querySelector(".elasticMedia-container").innerHTML=e},1500);

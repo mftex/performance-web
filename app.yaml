@@ -1,0 +1,15 @@
+
+runtime: php55
+api_version: 1
+
+
+handlers:
+  - url: /
+    static_files: index.html
+    upload: index.html
+    http_headers:
+      Link: <assets/css/critico-d89bd62a79.css>; rel=preload; as=style, <assets/img/logo-alura-0af2849faf.svg>; rel=preload; as=image, <assets/img/background-cidade-fundo-5d20ac8d24.svg>; rel=preload; as=image
+
+  - url: /assets
+    static_dir: assets
+
